@@ -55,6 +55,10 @@ header .container img{
     height: 25px;
 }
 
+#checkbox-menu{
+    display: none;
+}
+
 /* Fim seção de Header */
 
 /* inicio da seção Main */
