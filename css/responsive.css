@@ -41,7 +41,7 @@
 
     .menu{
         position: absolute;
-        margin-top: 14px;
+        margin-top: 13px;
         flex-direction: column;
         width: 100vw;
         justify-content: center;
