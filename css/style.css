@@ -11,6 +11,7 @@ html, body{
     font-family:"Source Sans Pro", "Times New Roman", "Serif";
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
 }
 
 /* Inicio seção de Header */
@@ -149,13 +150,14 @@ a{
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    box-shadow: 5px 5px 15px -4px #000000;
+    box-shadow: 5px 5px 15px -4px black;
     transition: all 0.3s ease 0s;
     border-radius: 10px;
 }
 
 .card:hover{
     transform: translateY(-7px);
+    box-shadow: 5px 5px 15px -4px #0076f4;
 }
 
 .image{
