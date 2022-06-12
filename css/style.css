@@ -8,8 +8,7 @@
 }
 
 html, body{
-    height: 100%;
-    font-family:"Source Sans Pro", Times New Roman, Serif;
+    font-family:"Source Sans Pro", "Times New Roman", "Serif";
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
@@ -24,7 +23,7 @@ header .container{
     align-items: center;
     justify-content: space-between; 
     max-width: 980px;
-    height: auto;
+    height: 80px;
     margin: auto;
 }
 
@@ -51,8 +50,7 @@ header nav ul li a:hover{
 }
 
 header .container img{
-    margin: 10px;
-    height: 25px;
+    height: 20px;
 }
 
 #checkbox-menu{
@@ -106,21 +104,29 @@ form input{
 form [type="submit"]{
     background-color: #0076f4;
     color: white;
+    width: 150px;
+    padding-left: 0;
+    font-size: 16px;
+    height: 40px;
 }
 
 form [type="submit"]:hover{
     cursor: pointer;
     background-color: white;
     color:#0076f4;
+    transform: translateY(-2px);
 }
 
 main .container-main img{
-    width: 500px;
+    width: 600px;
 }
 
 /* fim seção main */
 
 /* inicio cards*/
+a{
+    text-decoration: none;
+}
 
 .cards{
     width: 90%;
@@ -145,6 +151,7 @@ main .container-main img{
     cursor: pointer;
     box-shadow: 5px 5px 15px -4px #000000;
     transition: all 0.3s ease 0s;
+    border-radius: 10px;
 }
 
 .card:hover{
@@ -156,6 +163,8 @@ main .container-main img{
     padding-top: 56.25%;
     overflow: hidden;  
     position: relative;
+    border-radius: 10px 10px 0 0;
+    height: 225px;
 }
 .image img{
     position: absolute;
