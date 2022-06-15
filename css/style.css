@@ -184,10 +184,11 @@ a{
     margin-bottom: 0;
 }
 
-.contato{
+#form{
     margin-top: 50px;
     background-color: #0076f4; 
     max-width: 100%;
+    height: auto;
 
 }
 
@@ -198,11 +199,11 @@ a{
 }
 
 .inputcontato{  
-    margin-left: auto;
-    margin-right: auto;
+    align-items: center;
 }
 
-.formcontato input{
+.formcontato input, textarea{
+    font-family:"Source Sans Pro", "Times New Roman", "Serif";
     display: block;
     width: 380px;
     padding-left: 15px;
